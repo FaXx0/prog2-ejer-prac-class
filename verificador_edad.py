@@ -32,7 +32,7 @@ if __name__ == "__main__":
     except ValueError:
         print("Por favor, ingresa un número entero válido.")
 
-# Pruebas  
+# Pruebas    (asserts)      
 assert clasificar_pelicula(20).startswith("¡Puedes ver películas clasificadas R")
 assert clasificar_pelicula(15).startswith("Puedes ver películas clasificadas PG-13")
 assert clasificar_pelicula(10).startswith("Te recomendamos películas clasificadas G o PG")
