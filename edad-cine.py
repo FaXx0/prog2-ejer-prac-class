@@ -1,7 +1,7 @@
 # Verificador de Edad en una Película
 #ingresa tu edad
 edad = int(input("Ingresa tu edad: "))
-#Evaluar la edad
+#Evalu edad
 if edad >= 18:
     print("¡Puedes ver películas clasificadas R!")
 elif edad >= 13:
