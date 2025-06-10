@@ -10,4 +10,4 @@ elif edad >= 0:
     print("Te recomendamos películas clasificadas G o PG.")
 else:
     print("Edad no válida.")
-#fin
+
