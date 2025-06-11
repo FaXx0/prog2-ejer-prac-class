@@ -10,7 +10,7 @@ print("MI TERCER HOBBIE FAVORITO ES: " + Favoritos[2])
 
 ################################################################################
 ################################################################################
-Comidas_favoritas = ["Pizza", "Hamburguesas", "Sushi", "Tacos", "Ensaladas"]
+Comidas_favoritas = ["Pizza", "Hamburguesas", "Sushi", "Majadito", "Ensaladas"]
 Favoritos = ["Pizza", "Sushi", "Ensaladas"]
 
 print(f"Mis comidas favoritas son: {', '.join(Comidas_favoritas)}.")
