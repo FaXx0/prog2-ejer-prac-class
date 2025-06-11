@@ -1,9 +1,7 @@
-# Verificador de Edad para Películas 🎬
-Este proyecto en Python solicita al usuario su edad y le recomienda películas según la clasificación por edades (R, PG-13, G/PG).
-## 📌 Descripción
-El programa evalúa la edad ingresada por el usuario y muestra qué tipo de películas puede ver:
-- **Edad ≥ 18** → Puede ver películas clasificadas **R**
-- **Edad entre 13 y 17** → Puede ver películas **PG-13**
-- **Edad entre 0 y 12** → Se recomiendan películas **G o PG**
-- **Edad negativa** → Muestra un mensaje de error
-
+# ~Presentacion de trabajos y ejercicios Programacion2~ 
+# -1:verificador de edad de cine🎬
+# -2:verif-d-edad cine completo🎬
+# -3:README.md
+# -4:Tabla de multiplicar
+# -5:Adivina_el_numero.py
+# -6:Refactorizar
