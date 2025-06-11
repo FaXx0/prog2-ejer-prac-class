@@ -10,12 +10,12 @@ def obtener_clasificacion(edad): # Función principal
         return "Te recomendamos películas clasificadas G o PG." # Mensaje de recomendación
     elif edad < 18: # Clasificación para mayores de 13 años y menores de 18 años
         return "Puedes ver películas clasificadas PG-13." # Mensaje de recomendación
-    else:    # Clasificación para mayores de 18 años    
+    else: # Clasificación para mayores de 18 años    
         return "¡Puedes ver películas clasificadas R!" # Mensaje de recomendación
 
 def pruebas(): # Función para pruebas de la función obtener_clasificacion (pruebas unitarias) 
     assert obtener_clasificacion(10) == "Te recomendamos películas clasificadas G o PG."
-    "Prueba fallida: Niño de 10 años"
+    "Prueba fallida: Niño de 10 años" 
     print("✅ Prueba 7 PASADA: Niño de 10 años") # Prueba 1
     assert obtener_clasificacion(13) == "Puedes ver películas clasificadas PG-13."
     "Prueba fallida: Límite Adolescente (13 años)"
