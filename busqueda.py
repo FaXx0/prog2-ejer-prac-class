@@ -1,4 +1,7 @@
-# clase06_busquedas.py
+                                        # Autor: Fabrizzio Lora (FaXx0)
+                                        # Descripción: Este programa contiene funciones para realizar búsquedas lineales y binarias en listas.
+                                        # También incluye pruebas para validar el funcionamiento de estas funciones.
+                                        # La búsqueda lineal recorre todos los elementos de la lista uno por uno.
 # 1. Definir la función busqueda_lineal
 def busqueda_lineal(lista, clave):
     for i in range(len(lista)):
