@@ -2,15 +2,15 @@
 
 def busqueda_binaria(lista, objetivo): # Función para realizar búsqueda binaria en una lista ordenada
     """
-    Realiza búsqueda binaria en una lista ordenada.
+    Realiza búsqueda binaria en una lista ordenada. # Descripción de la función # Parámetros de la función # Retorno de la función # Fin de la función
 
-    Args:
-        lista (list): Lista ordenada de elementos.
-        objetivo (int): Elemento que se desea encontrar.
+    Args: # Parámetros de la función
+        lista (list): Lista ordenada de elementos.     # Descripción del parámetro lista
+        objetivo (int): Elemento que se desea encontrar. # Descripción del parámetro objetivo
 
-    Returns:
-        int: Índice del elemento si se encuentra, -1 si no.
-    """
+    Returns: # Retorno de la función
+        int: Índice del elemento si se encuentra, -1 si no. # Descripción del retorno de la función
+    """ 
     inicio = 0 # Inicializa el índice inicial
     fin = len(lista) - 1  # Inicializa el índice final
 
@@ -30,7 +30,7 @@ def probar_busqueda_binaria(): # Función para probar la función busqueda_binar
     """
     lista = [1, 3, 5, 7, 9, 11, 13, 15] # Lista ordenada para pruebas # Pruebas exitosas (elemento está en la lista) # Pruebas fallidas (elemento no está en la lista) # Fin de la función # Fin de la función
 
-    # Pruebas exitosas (elemento está en la lista)
+    # Pruebas exitosas (elemento está en la lista) 
     assert busqueda_binaria(lista, 1) == 0 # Prueba 1
     assert busqueda_binaria(lista, 5) == 2 # Prueba 2
     assert busqueda_binaria(lista, 15) == 7 # Prueba 3
