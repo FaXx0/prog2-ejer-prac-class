@@ -62,3 +62,4 @@ print(f"Búsqueda binaria de '5' en lista desordenada devolvió: {resultado_caos
 # Probablemente devuelva -1 (fallo), o un índice incorrecto
 
 print(" Fin del programa")
+print("Fabrizzio Lora (FaXx0)")
