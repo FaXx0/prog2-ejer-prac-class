@@ -53,7 +53,7 @@ if __name__ == "__main__":
 
 def busqueda_binaria(lista, objetivo):
     inicio = 0
-    fin = len(lista) - 1
+    fin = len(lista) -1
 
     while inicio <= fin:
         medio = (inicio + fin) // 2
@@ -70,4 +70,5 @@ def busqueda_binaria(lista, objetivo):
 
 lista = [50, 10, 70, 30, 90, 20]  #  Desordenada
 print(busqueda_binaria(lista, 35))  # Resultado impredecible o -1
+print("Fabrizzio Lora (FaXx0)")
 

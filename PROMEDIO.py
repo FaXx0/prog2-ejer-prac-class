@@ -7,5 +7,7 @@ for nota in Mis_notas: # Bucle para sumar todas las notas de la lista
     suma_total += nota     # Suma de notas
 
 promedio = suma_total / len(Mis_notas) # Cálculo del promedio
-print(f"El promedio es: {promedio}")    # Impresión del promedio
+print(f"El promedio es: {promedio}")
+print("Fabrizzio Lora (FaXx0)")
+# Impresión del promedio
     # Fin del programa

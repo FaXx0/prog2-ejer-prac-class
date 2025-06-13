@@ -56,6 +56,7 @@ def main(): # Función principal del programa (menú principal)
     mensaje = obtener_clasificacion(edad) # Obtiene la clasificación de películas según la edad del usuario
     print("\n🎭 Clasificación:", mensaje) # Muestra la clasificación de películas según la edad del usuario
     print("🍿 ¡Disfrutina tu película!")# Mensaje de despedida
+    print("Fabrizzio Lora (FaXx0)")
 
 if __name__ == "__main__": # Si el archivo se ejecuta directamente, ejecuta la función main() (entrada al programa)
     main() # Ejecuta la función main() (entrada al programa)    # Fin del programa

@@ -20,5 +20,6 @@ while intento != numero_secreto:
         print("Demasiado bajo.")     # Mensaje de error
     intento = int(input("Intenta otra vez: ")) # Solicita al usuario que ingrese otro número
     # Mensaje de éxito al adivinar el número
-print(f"¡Correcto! El número era {numero_secreto}.") # Mensaje de éxito 
+print(f"¡Correcto! El número era {numero_secreto}.") # Mensaje de éxito
+print("Fabrizzio Lora (FaXx0)")
     # Fin del programa

@@ -28,5 +28,6 @@ print("MI PRIMER COMIDA FAVORITA ES: " + Favoritos[0]) # Impresión de la primer
 print("MI SEGUNDA COMIDA FAVORITA ES: " + Favoritos[1])  # Impresión de la segunda comida favorita del usuario
 print("MI TERCER COMIDA FAVORITA ES: " + Favoritos[2])  # Impresión de la tercera comida favorita del usuario
 for comidas_favoritas in Favoritos: # Bucle para imprimir las comidas favoritas del usuario
-    print(f"Mis comidas favoritas son :{comidas_favoritas}") # Impresión de las comidas favoritas del usuario
+    print(f"Mis comidas favoritas son :{comidas_favoritas}")# Impresión de las comidas favoritas del usuario
+    print("Fabrizzio Lora (FaXx0)")
     # Fin del programa

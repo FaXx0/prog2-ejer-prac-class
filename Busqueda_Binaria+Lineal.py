@@ -163,3 +163,4 @@ if __name__ == "__main__":
     print("\n--- Búsqueda Binaria paso a paso ---")
     resultado_binaria = busqueda_binaria(lista, 10, mostrar_pasos=True)
     print(f"Resultado Binaria: {resultado_binaria}")
+    print("Fabrizzio Lora (FaXx0)")

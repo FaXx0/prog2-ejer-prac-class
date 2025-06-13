@@ -13,5 +13,6 @@ if 1 <= numero <= 10:    # Validación de datos  # Condicional para validar el r
         resultado = numero * i # Cálculo del resultado de la multiplicación # Operación de multiplicación
         print(f"{numero} x {i} = {resultado}")    # Impresión del resultado de la multiplicación # Salida de datos
 else:    # Si el número no está dentro del rango permitido, mostramos un mensaje de error 
-    print("Número fuera de rango. Por favor, ingresa un número del 1 al 10.") # Mensaje de error 
+    print("Número fuera de rango. Por favor, ingresa un número del 1 al 10.") # Mensaje de error
+    print("Fabrizzio Lora (FaXx0)")
     # Fin del programa

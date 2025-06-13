@@ -9,6 +9,7 @@ def mostrar_area_rectangulo(numero, base, altura): # Función principal
     area = calcular_area_rectangulo(base, altura)  #o area = base * altura 
         # Fin de la función
     print(f"El área del rectángulo {numero} ({base}x{altura}) es: {area}") # Salida de datos
+    print("Fabrizzio Lora (FaXx0)")
     # Fin de la función
 
 # Rectángulos

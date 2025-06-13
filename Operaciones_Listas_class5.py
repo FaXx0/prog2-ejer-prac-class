@@ -32,6 +32,7 @@ mi_lista = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1, 2, 3, 4, 5]
 resultado = sumar_elementos(mi_lista)
 
 print (f"La suma de los elementos de la lista es: {resultado}")
+print("Fabrizzio Lora (FaXx0)")
 
 ##################################################################################
 print("(-Con assert-)")
@@ -74,3 +75,4 @@ assert encontrar_maximo([-1, -9, -2, -8]) == -1
 print("Prueba 2 pasada = -1")
 assert encontrar_maximo([42, 42, 42]) == 42
 print("Prueba 3 pasada = 42")
+print("Fabrizzio Lora (FaXx0)")
