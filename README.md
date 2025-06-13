@@ -8,3 +8,7 @@
 * 7:Lista hobbies, comidas favoritas
 * 8:grupo de clase y proyecto 404NOTFOUND
 * 9:promedio
+* 10:Operaciones-Listas-class5
+* 11:Busqueda-Lineal+Binaria
+* 12:Busqueda-L+B desordenada
+* 13:busqueda
