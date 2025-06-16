@@ -16,3 +16,4 @@ if __name__ == "__main__": # Si el archivo se ejecuta directamente
    print("Antes:", numeros) # Imprime la lista original
    ordenamiento_de_burbuja(numeros) # Llamada a la función
    print("Después:", numeros) # Imprime la lista ordenada
+

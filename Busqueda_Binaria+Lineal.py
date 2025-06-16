@@ -1,6 +1,6 @@
 # busqueda_binaria_con_pruebas.py
 
-def busqueda_binaria(lista, objetivo): # Función para realizar búsqueda binaria en una lista ordenada
+def probarbusqueda_binaria(lista, objetivo): # Función para realizar búsqueda binaria en una lista ordenada
     """
     Realiza búsqueda binaria en una lista ordenada. # Descripción de la función # Parámetros de la función # Retorno de la función # Fin de la función
 
