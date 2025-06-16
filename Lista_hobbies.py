@@ -21,7 +21,7 @@ Comidas_favoritas = ["Pizza", "Hamburguesas", "Sushi", "Majadito", "Ensaladas"] 
 for Comida_favorita in Comidas_favoritas: # Bucle para imprimir las comidas favoritas de la lista
   print (f"Mis comidas favoritas son: {Comida_favorita}") # Impresión de las comidas favoritas de la lista
   
-Favoritos = ["Pizza", "Sushi", "Ensaladas"] # Lista de comidas favoritas del usuario
+Favoritos = ["Pizza", "salteñas", "Ensaladas"] # Lista de comidas favoritas del usuario
 #print(f"Mis comidas favoritas son: {', '.join(Comidas_favoritas)}.") # Impresión de las comidas favoritas de la lista
 #print(f"Mis favoritas seleccionadas son: {', '.join(Favoritos)}.") # Impresión de las comidas favoritas del usuario
 print("MI PRIMER COMIDA FAVORITA ES: " + Favoritos[0]) # Impresión de la primera comida favorita del usuario
