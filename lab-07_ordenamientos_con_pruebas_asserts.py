@@ -39,3 +39,54 @@ if __name__ == "__main__":
 
   # Pruebas con assert
   probar_ordenamiento_burbuja()
+
+
+
+#-------------------------------#
+# ordenamiento_insercion 
+#-------------------------------#
+def ordenamiento_por_insercion(lista):
+ for i in range(1, len(lista)):
+     valor_actual = lista[i] 
+     posicion_actual = i
+
+#Desplazar elementos mayores hacia la derecha 
+#mientras la posicion sea valida y el elemento de la izquierda sea mayor que el actual
+     while posicion_actual > 0 and lista[posicion_actual - 1]      > valor_actual:
+           lista[posicion_actual] = lista[posicion_actual -              1]#Desplazamiento
+           posicion_actual -= 1
+
+
+    # Insertar el valor actual en su posicion correcta
+     lista[posicion_actual] = valor_actual    
+ return lista
+
+
+
+# Caso 1: Lista desordenada
+lista1 = [6, 3, 8, 2, 5]
+ordenamiento_por_insercion(lista1)
+assert lista1 == [2, 3, 5, 6, 8], "Fallo en Caso 1"
+
+# Caso 2: Lista ya ordenada
+lista2 = [1, 2, 3, 4, 5]
+ordenamiento_por_insercion(lista2)
+assert lista2 == [1, 2, 3, 4, 5], "Fallo en Caso 2"
+
+# Caso 3: Lista ordenada a la inversa (peor caso)
+lista3 = [5, 4, 3, 2, 1]
+ordenamiento_por_insercion(lista3)
+assert lista3 == [1, 2, 3, 4, 5], "Fallo en Caso 3"
+
+# Caso 4: Lista con duplicados
+lista4 = [5, 1, 4, 2, 8, 5, 2]
+ordenamiento_por_insercion(lista4)
+assert lista4 == [1, 2, 2, 4, 5, 5, 8], "Fallo en Caso 4"
+
+# Caso borde: Lista vacía
+assert ordenamiento_por_insercion([]) == [], "Fallo en lista vacía"
+
+# Caso borde: Lista con un solo elemento
+assert ordenamiento_por_insercion([42]) == [42], "Fallo en lista con un solo elemento"
+
+print("¡Todas las pruebas del ordenamiento por inserción pasaron! ✅")
