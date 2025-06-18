@@ -3,7 +3,7 @@
                 # Descripción: Juego en el que el usuario debe adivinar un número secreto.
                 # El programa le indica si el número ingresado es demasiado alto o demasiado bajo.
                 # El juego continúa hasta que el usuario adivine el número secreto.
-                # El número secreto es un número fijo (7) y el usuario tiene que adivinarlo.
+                # El número secreto es un número fijo (7) y el usuario tiene que adivinarlo.   
 
 # Variable para almacenar el número secreto (entre 1 y 10)
 numero_secreto = 7  # Número secreto fijo 

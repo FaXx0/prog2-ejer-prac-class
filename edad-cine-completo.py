@@ -1,6 +1,6 @@
     # Verificador de Edad para Películas completo
     # Autor: Fabrizzio Lora (FaXx0)
-    # Descripción: Este programa solicita la edad del usuario y le recomienda películas según su clasificación.
+    # Descripción: Este programa solicita la edad del usuario y le recomienda películas según su clasificación.  
 
 # Función para obtener la clasificación de películas según la edad
 def obtener_clasificacion(edad): # Función principal

@@ -1,5 +1,5 @@
     # Autor: Fabrizzio Lora (FaXx0)
-    # Descripción: Calcula el promedio de una lista de notas.    
+    # Descripción: Calcula el promedio de una lista de notas y lo imprime en pantalla.   
 Mis_notas = [10, 15, 13, 12, 14, 16, 17, 18, 19, 20] # Lista de notas
 suma_total = 0 # Variable para almacenar la suma total de las notas
 

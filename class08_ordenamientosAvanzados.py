@@ -53,3 +53,6 @@ assert merge_sort([4, 2, 2, 4, 1]) == [1, 2, 2, 4, 4]  # Lista con elementos rep
 assert merge_sort([100, -50, 0, 50, -100]) == [-100, -50, 0, 50, 100]  # Lista con enteros negativos y positivos
 assert merge_sort([2.5, 1.2, 3.8]) == [1.2, 2.5, 3.8]  # Lista con flotantes
 print("¡Todas las pruebas con assert pasaron correctamente!")
+#----------------------------------------------------------------------------
+#----------------------------------------------------------------------------
+

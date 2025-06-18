@@ -1,7 +1,7 @@
 # Tabla de multiplicar del 1 al 10
 # Autor: Fabrizzio Lora (FaXx0)
 # Descripción: Imprime las tablas de multiplicar del 1 al 10.
-# Tabla de multiplicar de un número dado por el usuario 
+# Tabla de multiplicar de un número dado por el usuario (entre 1 y 10) # Entrada de datos # Validación de datos # Condicional para validar el rango del número ingresado por el usuario # Bucle para imprimir la tabla de multiplicar del número ingresado por el usuario # Iteración sobre el rango del 1 al 1
 
 # Solicitamos al usuario que introduzca un número del 1 al 10 para mostrar su tabla de multiplicar 
 numero = int(input("Introduce un número del 1 al 10: ")) # Entrada de datos 

@@ -1,6 +1,6 @@
                 # Autor: Fabrizzio Lora (FaXx0)
                 # Descripción: Este programa muestra una lista de hobbies y los hobbies favoritos del usuario.
-                # El usuario puede ingresar sus hobbies favoritos y el programa los muestra en pantalla.
+                # El usuario puede ingresar sus hobbies favoritos y el programa los muestra en pantalla.    
 lista_hobbies = ["Leer", "Caminar", "Programar", "Jugar videojuegos", "Ver películas"]  # Lista de hobbies
 for lista_hobbies in lista_hobbies: # Bucle para imprimir los hobbies de la lista
    print(f"Mis hobbies son : {lista_hobbies}")  # Impresión de los hobbies de la lista

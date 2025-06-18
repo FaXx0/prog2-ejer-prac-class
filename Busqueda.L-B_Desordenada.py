@@ -72,3 +72,4 @@ lista = [50, 10, 70, 30, 90, 20]  #  Desordenada
 print(busqueda_binaria(lista, 35))  # Resultado impredecible o -1
 print("Fabrizzio Lora (FaXx0)")
 
+#_

@@ -1,5 +1,6 @@
         # Refactorizar el código de la tabla de multiplicar
         # Autor: Fabrizzio Lora (FaXx0)
+
 # Función para calcular áreas de rectángulos
 def calcular_area_rectangulo(base, altura):
     return base * altura
