@@ -50,3 +50,11 @@ print("\nMatriz después de la modificación:")
 for fila in teclado:
     print(fila) 
 print("Fabrizzio Lora (FaXx0)")
+#---------------------------------------------------------#
+#---------------------------------------------------------#
+#Laboratorio de matrices
+matriz =  [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]    
+]
