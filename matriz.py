@@ -328,3 +328,51 @@ def probar_es_identidad():
     print("Prueba 6 pasada!")
 print("¡Pruebas para es_identidad pasaron! ✅")
 print("Fabrizzio Lora (FaXx0)")
+
+#----------------------------------------------------------#
+#----------------------------------------------------------#
+
+#Laboratorio de matrices Funcion para Verificar Simetria
+
+def es_simetrica(matriz): #Funcion para verificar si una matriz es simetrica
+    num_filas = len(matriz) #Obtenemos el numero de filas
+    num_columnas = len(matriz[0]) #Obtenemos el numero de columnas
+    #Requisito 1:Debe ser cuadrada
+    if num_filas != num_columnas:  #Si el numero de filas no es igual al numero de columnas    
+        return False #Si no es cuadrada, no es simetrica
+    #Requisito 2:Debe ser igual a su transpuesta
+    for i in range(num_filas): #Recorremos la matriz
+        for j in range(num_columnas): #Recorremos la matriz
+            if matriz[i][j] != matriz[j][i]: #Si no es igual a su transpuesta
+                return False #Si no es igual a su transpuesta, no es simetrica
+    return True            
+ #Si pasa ambos requisitos, es simetrica
+    #Prueba
+def probar_es_simetrica():
+    print("\nProbando es_simetrica...")
+    #Caso 1: matriz 3x3 simetrica
+    m1 = [[1, 2, 3], [2, 4, 5], [3, 5, 6]]
+    assert probar_es_simetrica(m1) == True
+    print("Prueba 1 pasada!")
+    #Caso 2: matriz 2x2 simetrica
+    m2 = [[1, 2], [2, 3]]
+    assert probar_es_simetrica(m2) == True
+    print("Prueba 2 pasada!")
+    #Caso 3: matriz 1x1 simetrica
+    m3 = [[1]]
+    assert probar_es_simetrica(m3) == True
+    print("Prueba 3 pasada!")
+    #Caso 4: matriz 3x3 no simetrica
+    m4 = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+    assert probar_es_simetrica(m4) == False
+    print("Prueba 4 pasada!")
+    #Caso 5: matriz 2x2 no simetrica
+    m5 = [[1, 2], [3, 4]]
+    assert probar_es_simetrica(m5) == False
+    print("Prueba 5 pasada!")
+    #Caso 6: matriz 1x1 no simetrica
+    m6 = [[0]]
+    assert probar_es_simetrica(m6) == True
+    print("Prueba 6 pasada!")
+print ("¡Pruebas para es_simetrica pasaron! ✅")
+print ("Fabrizzio Lora (FaXx0)")
