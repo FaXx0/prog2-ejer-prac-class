@@ -43,7 +43,7 @@ if __name__ == "__main__":
 
 
 #-------------------------------#
-# ordenamiento_insercion 
+#    ordenamiento_insercion     #
 #-------------------------------#
 def ordenamiento_por_insercion(lista):
  for i in range(1, len(lista)):
