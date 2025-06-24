@@ -75,4 +75,3 @@ print(coche)
 print("\nPost de Red Social:")
 print(post_red_social)
 
-
