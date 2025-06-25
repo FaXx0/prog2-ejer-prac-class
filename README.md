@@ -12,3 +12,13 @@
 * 11:Busqueda-Lineal+Binaria
 * 12:Busqueda-L+B desordenada
 * 13:busqueda
+* 14:Ordenamientos
+* 15:Ordenamientos Burbuja e Insercion
+* 16:Ordenamientos Avanzados
+* 17:Matrices todo lo relacionado 
+* 18:admin de asientos de cine
+* 19:Batalla Naval simple
+* 20:Batalla Naval completa mejorada
+* 21:Diccionarios
+* 22:Todolist
+* 23:AgendaContacto2.0
