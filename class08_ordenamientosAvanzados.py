@@ -2,24 +2,19 @@ def merge_sort(lista):
   # Paso Vencer (Condición Base de la Recursividad):
   if len(lista) <= 1:
       return lista
-
   # Paso 1: DIVIDIR
   medio = len(lista) // 2
   mitad_izquierda = lista[:medio]
   mitad_derecha = lista[medio:]
-
   # Paso 2: VENCER (Recursión)
   izquierda_ordenada = merge_sort(mitad_izquierda)
   derecha_ordenada = merge_sort(mitad_derecha)
-
   # Paso 3: COMBINAR
   print(f"Mezclaría {izquierda_ordenada} y {derecha_ordenada}")
   return merge(izquierda_ordenada, derecha_ordenada)
-
 def merge(izquierda, derecha):
   resultado = []
   i = j = 0
-
   # Comparar elementos de izquierda y derecha uno por uno
   while i < len(izquierda) and j < len(derecha):
       if izquierda[i] < derecha[j]:
@@ -28,11 +23,9 @@ def merge(izquierda, derecha):
       else:
           resultado.append(derecha[j])
           j += 1
-
   # Agregar cualquier elemento restante
   resultado.extend(izquierda[i:])
   resultado.extend(derecha[j:])
-
   return resultado
 
 # --- Prueba ---
@@ -40,7 +33,6 @@ lista_prueba = [8, 3, 5, 1]
 print("Lista original:", lista_prueba)
 resultado = merge_sort(lista_prueba)
 print("Lista ordenada:", resultado)
-
 # --- Pruebas automatizadas ---
 assert merge_sort([]) == [] # Lista vacía
 assert merge_sort([1]) == [1] # Lista con un solo elemento
@@ -53,6 +45,7 @@ assert merge_sort([4, 2, 2, 4, 1]) == [1, 2, 2, 4, 4]  # Lista con elementos rep
 assert merge_sort([100, -50, 0, 50, -100]) == [-100, -50, 0, 50, 100]  # Lista con enteros negativos y positivos
 assert merge_sort([2.5, 1.2, 3.8]) == [1.2, 2.5, 3.8]  # Lista con flotantes
 print("¡Todas las pruebas con assert pasaron correctamente!")
+print("Fabrizzio Lora (FaXx0)")
 #----------------------------------------------------------------------------
 #----------------------------------------------------------------------------
 

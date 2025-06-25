@@ -1,3 +1,6 @@
+#-------------------------------#
+#    ordenamiento_burbuja       #
+#-------------------------------#
 def ordenamiento_de_burbuja(lista): # Función para ordenar una lista usando el algoritmo de burbuja
     n = len(lista) # Obtiene la longitud de la lista
     for i in range(n):  # Recorre la lista

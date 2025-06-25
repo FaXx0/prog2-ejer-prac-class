@@ -1,16 +1,13 @@
 # Primero definimos la matriz
 matriz = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
-
 # Ahora sí podemos obtener dimensiones y recorrer
 num_filas = len(matriz)  # 3 filas
 num_columnas = len(matriz[0])  # 3 columnas
-
 # Recorremos usando índices
 for i in range(num_filas):  # i = 0, 1, 2
     for j in range(num_columnas):  # j = 0, 1, 2
         elemento = matriz[i][j]
         print(f"Elemento en ({i},{j}) es {elemento}")
-
 # Recorremos cada fila
 for fila_actual in matriz:
     # Recorremos cada elemento dentro de la fila actual
@@ -20,51 +17,32 @@ for fila_actual in matriz:
     print()  # Salto de línea al final de cada fila
 print("Fabrizzio Lora (FaXx0)")
 #---------------------------------------------------------#
+#              Laboratorio de matrices                    #
+#         Ejercicio 1: Imprimir una matriz                #
 #---------------------------------------------------------#
-#Laboratorio de matrices
-#Ejercicio 1: Imprimir una matriz
-# 1. Crear la matriz 3x3 que representa el teclado numérico
-teclado = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
-
-# 2. Imprimir la matriz completa
-print("Matriz completa:")
+teclado = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]# 1. Crear la matriz 3x3 que representa el teclado numérico
+print("Matriz completa:")# 2. Imprimir la matriz completa
 for fila in teclado:
     print(fila)
-
 # 3. Acceder e imprimir elementos específicos
 print("\nNúmero en el centro:", teclado[1][1])  # El 5 (fila 1, columna 1)
 print("Número en la esquina inferior derecha:",
-      teclado[2][2])  # El 9 (fila 2, columna 2)
-
-# 4. Modificar el número en la esquina superior izquierda (1 por 0)
+      teclado[2][2])  # El 9 (fila 2, columna 2) ----------# 4. Modificar el número en la esquina superior izquierda (1 por 0)
 teclado[0][0] = 0
-
-# 5. Imprimir la matriz modificada
 print("\nMatriz después de la modificación:")
 for fila in teclado:
     print(fila)
 print("Fabrizzio Lora (FaXx0)")
-
-
 #---------------------------------------------------------#
+#       Laboratorio de matrices(Analisis matricial)       #
 #---------------------------------------------------------#
-#Laboratorio de matrices(Analicis matricial)
 # Definimos la función que suma todos los elementos de una matriz
-def sumar_total_matriz(matriz):
-    """
-    Esta función recibe una matriz (lista de listas)
-    y retorna la suma total de todos sus elementos.
-    Ejemplo:
-    matriz = [[1, 2], [3, 4]]
-    resultado = 10
-    """
+def sumar_total_matriz(matriz):                              
     total = 0
     for fila in matriz:
         for elemento in fila:
             total += elemento
     return total
-
-
 # Función para probar que sumar_total_matriz funciona correctamente
 def probar_suma_total():
     print("Probando sumar_total_matriz...")
@@ -79,31 +57,19 @@ def probar_suma_total():
     assert sumar_total_matriz([]) == 0  # Matriz completamente vacía
     assert sumar_total_matriz([[42]]) == 42  # Matriz de un solo elemento
     print("¡Pruebas para sumar_total_matriz pasaron! (matricial)✅")
-
 # Llamamos a la función de pruebas
 probar_suma_total()
 print("Fabrizzio Lora (FaXx0)")
-
-
 #----------------------------------------------------------#
+#         Laboratorio de matrices(Suma por filas)          #
 #----------------------------------------------------------#
-#Laboratorio de matrices(Suma por filas)
 # Definimos la función que suma los elementos por cada fila de la matriz
-def sumar_por_filas(matriz):
-    """
-    Esta función recibe una matriz (lista de listas)
-    y devuelve una lista con la suma de cada fila.
-    Ejemplo:
-    matriz = [[1, 2, 3], [4, 5, 6]]
-    resultado = [6, 15]
-    """
+def sumar_por_filas(matriz): # Recibe una matriz y retorna una lista con la suma de cada fila de la matriz # Ejemplo: matriz = [[1, 2, 3], [4, 5, 6]] → [6, 15]
     resultado = []
     for fila in matriz:
         suma_fila = sum(fila)  # Suma todos los elementos de la fila
         resultado.append(suma_fila)
     return resultado
-
-
 # Función de prueba para verificar que sumar_por_filas funciona correctamente
 def probar_suma_por_filas():
     print("\nProbando sumar_por_filas...")
@@ -116,32 +82,17 @@ def probar_suma_por_filas():
     # Caso borde: matriz vacía
     assert sumar_por_filas([]) == []  # No hay filas que sumar
     print("¡Pruebas para sumar_por_filas pasaron! ✅")
-
 # Llamamos a la función para ejecutar las pruebas
 probar_suma_por_filas()
 print("Fabrizzio Lora (FaXx0)")
-
 #----------------------------------------------------------#
+#  Laboratorio de matrices(Suma de la diagonal principal)) #   
 #----------------------------------------------------------#
-#Laboratorio de matrices(Suma de la diagonal principal))
-# Definimos la función que suma los elementos de la diagonal principal de una matriz cuadrada (misma cantidad de filas y columnas) y retorna la suma de los elementos en su diagonal principal. Ejemplo: matriz = [[1, 2],[3, 4]] diagonal principal: 1 y 4 → suma = 5
-
-
-def sumar_diagonal_principal(matriz):
-    """
-    Esta función recibe una matriz cuadrada (misma cantidad de filas y columnas)
-    y retorna la suma de los elementos en su diagonal principal.
-    Ejemplo:
-    matriz = [[1, 2],
-              [3, 4]]
-    diagonal principal: 1 y 4 → suma = 5
-    """
+def sumar_diagonal_principal(matriz):# Definimos la función que suma los elementos de la diagonal principal de una matriz cuadrada (misma cantidad de filas y columnas) y retorna la suma de los elementos en su diagonal principal. Ejemplo: matriz = [[1, 2],[3, 4]] diagonal principal: 1 y 4 → suma = 5
     suma = 0
     for i in range(len(matriz)):
         suma += matriz[i][i]  # Accede al elemento en la posición (i, i)
     return suma
-
-
 # Función de prueba para verificar que sumar_diagonal_principal funciona correctamente
 def probar_suma_diagonal_principal():
     print("\nProbando sumar_diagonal_principal...")
@@ -155,19 +106,15 @@ def probar_suma_diagonal_principal():
     m3 = [[5]]
     assert sumar_diagonal_principal(m3) == 5  # Solo un elemento en la diagonal
     print("¡Pruebas para sumar_diagonal_principal pasaron! ✅")
-
 # Llamamos a la función para ejecutar las pruebas
 probar_suma_diagonal_principal()
 print("Fabrizzio Lora (FaXx0)")
 #print(f"sumar_diagonal_principal(m1) = {sumar_diagonal_principal( m1)}")
-
-
-#----------------------------------------------------------#
-#----------------------------------------------------------#
-#Laboratorio de matrices(ejercicio adicional suma diagonal secundaria))))
+#---------------------------------------------------------------------#
+#Laboratorio de matrices(ejercicio adicional suma diagonal secundaria)#
+#---------------------------------------------------------------------#
 # Definimos la función que suma los elementos de la diagonal secundaria de una matriz cuadrada
-def sumar_diagonal_secundaria(matriz):
-    #Esta función recibe una matriz cuadrada (misma cantidad de filas y columnas) y retorna la suma de los elementos en su diagonal secundaria.Ejemplo: matriz = [[1, 2],[3, 4]] diagonal secundaria: 2 y 3 → suma = 5
+def sumar_diagonal_secundaria(matriz):  #Esta función recibe una matriz cuadrada (misma cantidad de filas y columnas) y retorna la suma de los elementos en su diagonal secundaria.Ejemplo: matriz = [[1, 2],[3, 4]] diagonal secundaria: 2 y 3 → suma = 5
     # Definimos la función que suma los elementos de la diagonal secundaria de una matriz cuadrada
     suma = 0  # Inicializamos la suma en 0
     n = len(
@@ -177,8 +124,6 @@ def sumar_diagonal_secundaria(matriz):
         suma += matriz[i][
             n - 1 - i]  # Accedemos al elemento en la posición (i, n - 1 - i)
     return suma  # Retornamos la suma de los elementos de la diagonal secundaria
-
-
     # Función de prueba para verificar que sumar_diagonal_secundaria funciona correctamente
 def probar_suma_diagonal_secundaria():
     print("\nProbando sumar_diagonal_secundaria...")
@@ -192,56 +137,38 @@ def probar_suma_diagonal_secundaria():
     m3 = [[5]]
     assert sumar_diagonal_secundaria(
         m3) == 5  # Solo un elemento en la diagonal
-
-
 print("¡Pruebas para sumar_diagonal_secundaria pasaron! ✅"
       )  # Llamamos a la función para ejecutar las pruebas
 print("Fabrizzio Lora (FaXx0)")
-
 #----------------------------------------------------------#
 #segunda_opcion
 def sumar_diagonal_secundaria2(matriz_cuadrada):
-    #Calcula la suma de los elementos en la diagonal secundaria de una matriz cuadrada.
-    #La diagonal secundaria es la que va desde la esquina superior derecha hasta la esquina inferior      izquierda.
-
-    #Parámetros:
-    #matriz_cuadrada (list[list]): Matriz cuadrada (N x N) de números
-    #Retorna:
-    #int/float: Suma de los elementos en la diagonal secundaria
-    #Lanza:
-    #ValueError: Si la matriz no es cuadrada
-
-    # Verificar si la matriz es cuadrada
+    #Calcula la suma de los elementos en la diagonal secundaria de una matriz cuadrada.#La diagonal secundaria es la que va desde la esquina superior derecha hasta la esquina inferior      izquierda. #Parámetros: #matriz_cuadrada (list[list]): Matriz cuadrada (N x N) de números
+    #Retorna:#int/float: Suma de los elementos en la diagonal secundaria
+    #Lanza:#ValueError: Si la matriz no es cuadrada # Verificar si la matriz es cuadrada
     n = len(matriz_cuadrada)
     for fila in matriz_cuadrada:
         if len(fila) != n:
             raise ValueError(
                 "La matriz debe ser cuadrada (mismo número de filas y columnas)"
             )
-
     # Calcular suma de diagonal secundaria
     suma = 0
     for i in range(n):
         j = n - 1 - i  # Índice de columna para la diagonal secundaria
         suma += matriz_cuadrada[i][j]
-
     return suma
-
-
 # Ejemplo de uso
 if __name__ == "__main__":
     matriz = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
-
 resultado = sumar_diagonal_secundaria2(matriz)
-print(
-    f"Suma de la diagonal secundaria2: {resultado}"
-)  # Salida: 15 (3 + 5 + 7) # Llamamos a la función para ejecutar las pruebas y ejecutamos las pruebas de la función sumar_diagonal_secundaria2 con la matriz de ejemplo
+print(f"Suma de la diagonal secundaria2: {resultado}")  # Salida: 15 (3 + 5 + 7) # Llamamos a la función para ejecutar las pruebas y ejecutamos las pruebas de la función sumar_diagonal_secundaria2 con la matriz de ejemplo
 print("Fabrizzio Lora (FaXx0)")
-
 #----------------------------------------------------------#
 #----------------------------------------------------------#
-#Laboratorio de matrices
-#(ejercicio adicional suma de una columna))
+#                Laboratorio de matrices                   #
+#       (ejercicio adicional suma de una columna))         #
+#----------------------------------------------------------#
 def transponer_matriz(matriz):
     if not matriz or not matriz[0]:
         return []
@@ -255,8 +182,6 @@ def transponer_matriz(matriz):
             nueva_fila.append(matriz[i][j])
         matriz_transpuesta.append(nueva_fila)
     return matriz_transpuesta
-
-
     #Prueba
 def probar_transponer_matriz():
     print("\nProbando transponer_matriz...")
@@ -277,10 +202,8 @@ def probar_transponer_matriz():
     print("Prueba 3 pasada!")
 print("¡Pruebas para transponer_matriz pasaron! ✅")
 print("Fabrizzio Lora (FaXx0)")
-
 #----------------------------------------------------------#
 #----------------------------------------------------------#
-
 #Laboratorio de matrices Funcion para Verificar Identidad
 def es_identidad(matriz):
     #Requisito 1:Debe ser cuadrada
@@ -298,7 +221,6 @@ def es_identidad(matriz):
                 if matriz[i][j] != 0: #Si no es la diagonal principal
                     return False #Si no cumple con alguno de los requisitos, no es identidad
     return True #Si pasa ambos requisitos, es identidad
-
     #Prueba
 def probar_es_identidad():
     print("\nProbando es_identidad...")
@@ -328,51 +250,47 @@ def probar_es_identidad():
     print("Prueba 6 pasada!")
 print("¡Pruebas para es_identidad pasaron! ✅")
 print("Fabrizzio Lora (FaXx0)")
-
 #----------------------------------------------------------#
+#  Laboratorio de matrices Funcion para Verificar Simetria #
 #----------------------------------------------------------#
+def es_simetrica(matriz):  # Función para verificar si una matriz es simétrica
+    num_filas = len(matriz)
+    num_columnas = len(matriz[0])
+    if num_filas != num_columnas:  # Requisito 1: matriz cuadrada
+        return False
+    for i in range(num_filas):  # Requisito 2: igual a su transpuesta
+        for j in range(num_columnas):
+            if matriz[i][j] != matriz[j][i]:
+                return False
+    return True
 
-#Laboratorio de matrices Funcion para Verificar Simetria
-
-def es_simetrica(matriz): #Funcion para verificar si una matriz es simetrica
-    num_filas = len(matriz) #Obtenemos el numero de filas
-    num_columnas = len(matriz[0]) #Obtenemos el numero de columnas
-    #Requisito 1:Debe ser cuadrada
-    if num_filas != num_columnas:  #Si el numero de filas no es igual al numero de columnas    
-        return False #Si no es cuadrada, no es simetrica
-    #Requisito 2:Debe ser igual a su transpuesta
-    for i in range(num_filas): #Recorremos la matriz
-        for j in range(num_columnas): #Recorremos la matriz
-            if matriz[i][j] != matriz[j][i]: #Si no es igual a su transpuesta
-                return False #Si no es igual a su transpuesta, no es simetrica
-    return True            
- #Si pasa ambos requisitos, es simetrica
-    #Prueba
+# Pruebas
 def probar_es_simetrica():
     print("\nProbando es_simetrica...")
-    #Caso 1: matriz 3x3 simetrica
     m1 = [[1, 2, 3], [2, 4, 5], [3, 5, 6]]
-    assert probar_es_simetrica(m1) == True
+    assert es_simetrica(m1) == True
     print("Prueba 1 pasada!")
-    #Caso 2: matriz 2x2 simetrica
     m2 = [[1, 2], [2, 3]]
-    assert probar_es_simetrica(m2) == True
+    assert es_simetrica(m2) == True
     print("Prueba 2 pasada!")
-    #Caso 3: matriz 1x1 simetrica
     m3 = [[1]]
-    assert probar_es_simetrica(m3) == True
+    assert es_simetrica(m3) == True
     print("Prueba 3 pasada!")
-    #Caso 4: matriz 3x3 no simetrica
     m4 = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
-    assert probar_es_simetrica(m4) == False
+    assert es_simetrica(m4) == False
     print("Prueba 4 pasada!")
-    #Caso 5: matriz 2x2 no simetrica
     m5 = [[1, 2], [3, 4]]
-    assert probar_es_simetrica(m5) == False
+    assert es_simetrica(m5) == False
     print("Prueba 5 pasada!")
-    #Caso 6: matriz 1x1 no simetrica
+
     m6 = [[0]]
-    assert probar_es_simetrica(m6) == True
+    assert es_simetrica(m6) == True
     print("Prueba 6 pasada!")
-print ("¡Pruebas para es_simetrica pasaron! ✅")
+
+    print("¡Pruebas para es_simetrica pasaron! ✅")
+    print("Fabrizzio Lora (FaXx0)")
+
+# Llamada a la prueba
+probar_es_simetrica()
+
 print ("Fabrizzio Lora (FaXx0)")

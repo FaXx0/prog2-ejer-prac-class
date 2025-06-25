@@ -1,4 +1,4 @@
-producto = {'codigo' : 12345, 'nombre' : 'Laptop', 'precio' : 1500.00, 'cantidad' : 10} # Diccionario de producto
+producto = {'codigo' : 100, 'nombre' : 'Iphone', 'precio' : 4200.00, 'cantidad' : 10} # Diccionario de producto
 print ("\n--- Claves del producto ---")
 for clave in producto: # Iteración sobre las claves del diccionario
     print(clave)
@@ -10,13 +10,18 @@ for clave, valor in producto.items(): # Iteración sobre las claves y valores de
 print ("Fabrizzio Lora (FaXx0)")
 #------------------------------------------#
 #------------------------------------------#
+#------------------------------------------#
 # Diccionario de productos
 inventario =[]
 comida = {'codigo' : 123, 'nombre' : 'frutas', 'precio' : 15.00, 'cantidad' : 10}
-producto = {'codigo' : 456, 'nombre' : 'Laptop', 'precio' : 1500.00, 'cantidad' : 10}
-limpieza = {'codigo' : 789, 'nombre' : 'jabon', 'precio' : 15.00, 'cantidad' : 10}
-ropa = {'codigo' : 101112, 'nombre' : 'camisa', 'precio' : 15.00, 'cantidad' : 10}
-
+comida = {'codigo' : 124, 'nombre' : 'Pan', 'precio' : 5.00, 'cantidad' : 40}
+tecnologia = {'codigo' : 456, 'nombre' : 'Laptop', 'precio' : 6500.00, 'cantidad' : 10} 
+celulares = {'codigo': 457, 'nombre' : 'Iphone', 'precio' : 4200.00, 'cantidad' : 5}
+limpieza = {'codigo' : 789, 'nombre' : 'jabon', 'precio' : 18.00, 'cantidad' : 10}
+limpieza = {'codigo' : 790, 'nombre' : 'detergente', 'precio' : 30.00, 'cantidad' : 10}
+ropa = {'codigo' : 101112, 'nombre' : 'camisa', 'precio' : 150.00, 'cantidad' : 10}
+ropa = {'codigo' : 101113, 'nombre' : 'pantalon', 'precio' : 150.00, 'cantidad' : 10}
+ropa = {'codigo' : 101114, 'nombre' : 'zapatos', 'precio' : 270.00, 'cantidad' : 10}
  # Diccionario de producto
 inventario.append(comida) # Agrega el diccionario de comida al inventario
 inventario.append(producto) # Agrega el diccionario de producto al inventario
@@ -43,7 +48,6 @@ cancion = {
     "fecha_lanzamiento": ["2017-01-06"], 
     "colaboradores": ["Johnny McDaid", "Steve Mac"]
 }
-
 # Diccionario para un Coche
 coche = {
     "marca": "Toyota",
@@ -57,7 +61,6 @@ coche = {
         "transmision": "Automática"
     }
 }
-
 # Diccionario para un Post de Red Social
 post_red_social = {
     "id_post": 987654321,
@@ -66,7 +69,6 @@ post_red_social = {
     "fecha_publicacion": "2025-06-23 15:30:00",
     "likes": 23,
 }
-
 # Imprimir 
 print("Canción:")
 print(cancion)
