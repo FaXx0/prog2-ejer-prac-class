@@ -1,14 +1,12 @@
 ---
 ### **Curso de Programación 2 – Universidad \[Universidad DOMINGO SAVIO]**
-
-**Descripción General:**
-
-El curso de **Programación 2** está orientado al desarrollo de habilidades prácticas en programación utilizando **Python** como lenguaje principal. A lo largo del semestre, los estudiantes trabajan en una serie de ejercicios y proyectos integradores, utilizando herramientas de desarrollo modernas como **Replit** para codificación colaborativa y **GitHub** para el control de versiones y gestión de repositorios.
-
-El enfoque del curso es **aprender resolviendo problemas reales**, estructurando código de forma modular, reutilizable y cada vez más profesional. Además, se fomenta el trabajo en equipo, la organización de código en proyectos y el uso de buenas prácticas de programación.
-
 ---
-
+**Descripción General:**
+El curso de **Programación 2** está orientado al desarrollo de habilidades prácticas en programación utilizando **Python** como lenguaje principal. A lo largo del semestre, los estudiantes trabajan en una serie de ejercicios y proyectos integradores, utilizando herramientas de desarrollo modernas como **Replit** para codificación colaborativa y **GitHub** para el control de versiones y gestión de repositorios.
+---
+El enfoque del curso es **aprender resolviendo problemas reales**, estructurando código de forma modular, reutilizable y cada vez más profesional. Además, se fomenta el trabajo en equipo, la organización de código en proyectos y el uso de buenas prácticas de programación.
+---
+---
 ### **Herramientas utilizadas:**
 
 * **Python 3** como lenguaje de programación.
