@@ -1,4 +1,4 @@
-modules = ["dotnet-8.0", "angular-node-20", "bash", "bun-1.2", "c-clang14", "python-with-prybar-3.10", "nodejs-with-prybar-18", "web", "rust-stable", "python-base-3.13", "python-3.9", "nodejs-23", "java-graalvm22.3", "cpp-clang14"]
+modules = ["python-3.12"]
 [nix]
 channel = "stable-24_05"
 packages = ["openssh", "gir-rs"]
