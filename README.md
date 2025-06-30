@@ -62,12 +62,20 @@ Versión completa del juego con opciones como guardar partida, turnos, CPU vs ju
 * **21. Diccionarios:**
 Introducción y aplicación de diccionarios para estructurar información compleja (agenda, inventario, etc.).
 
-* **22. ToDo List:**
+* **23. ToDo List:**
 Gestor de tareas con funcionalidades como agregar, eliminar, y marcar tareas como completadas.
 
-* **23. AgendaContacto2.0:**
+* **22. Gestion de asientos en un cine:**
+Codigo para gestionar y vender ocupar o desocupar asientos en una sala de cine. 
+
+* **24. AgendaContacto2.0:**
 Proyecto final usando **clases y GUI** (Tkinter) para crear un administrador de contactos completo.
 
+* **25. Libro:**
+Este código define una clase llamada `Libro` en Python, que modela las características y comportamientos básicos de un libro en una biblioteca.
+
+* **26. Proyecto Final:**
+Programa para gestion de inventario y venta de un MICROMARKET usando lo aprendido.
 ---
 
 ### **Competencias desarrolladas:**
