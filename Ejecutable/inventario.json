@@ -1,0 +1,72 @@
+[
+    {
+        "codigo": "010",
+        "nombre": "Leche",
+        "categoria": "lacteos",
+        "stock": 26,
+        "precio": 7.5
+    },
+    {
+        "codigo": "011",
+        "nombre": "Queso",
+        "categoria": "lacteos",
+        "stock": 18,
+        "precio": 12.0
+    },
+    {
+        "codigo": "110",
+        "nombre": "Pan",
+        "categoria": "panaderia",
+        "stock": 20,
+        "precio": 0.7
+    },
+    {
+        "codigo": "111",
+        "nombre": "Tamales",
+        "categoria": "panaderia",
+        "stock": 15,
+        "precio": 6.5
+    },
+    {
+        "codigo": "210",
+        "nombre": "Naranjas",
+        "categoria": "frutas y verduras",
+        "stock": 95,
+        "precio": 0.8
+    },
+    {
+        "codigo": "211",
+        "nombre": "Pi\u00f1a",
+        "categoria": "frutas y verduras",
+        "stock": 20,
+        "precio": 10.0
+    },
+    {
+        "codigo": "220",
+        "nombre": "Tomates",
+        "categoria": "frutas y verduras",
+        "stock": 30,
+        "precio": 1.0
+    },
+    {
+        "codigo": "221",
+        "nombre": "Papa",
+        "categoria": "frutas y verduras",
+        "stock": 200,
+        "precio": 1.4
+    },
+    {
+        "codigo": "310",
+        "nombre": "Carne Molida",
+        "categoria": "carnes",
+        "stock": 40,
+        "precio": 45.0
+    },
+    {
+        "codigo": "016",
+        "nombre": "Yogurt griego ",
+        "categoria": "lacteos",
+        "stock": 17,
+        "precio": 18.0
+    }
+]
